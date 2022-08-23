@@ -14,7 +14,8 @@ html {
 :root {
   --mainColor: #10cab7;
   --secondColor: #2c4755;
-  --section-padding: 60px
+  --section-padding: 60px;
+  --paragraph-color: #777;
 }
 
 body {
@@ -45,7 +46,7 @@ body {
   margin-top: -90px;
   font-size: 17px;
   text-align: center;
-  color: #777;
+  color: var(--paragraph-color);
 }
 
 @media only screen and (max-width:767px) {
@@ -250,7 +251,7 @@ header .logo img {
 }
 
 .feature .container .feat p {
-  color: #777;
+  color: var(--paragraph-color);
   font-size: 17px;
   line-height: 1.8;
 }
@@ -311,7 +312,7 @@ header .logo img {
 }
 
 .services .container .services-content .col .srv .caption p {
-  color: #777;
+  color: var(--paragraph-color);
   font-weight: 300;
   line-height: 1.6;
 }
@@ -391,7 +392,7 @@ header .logo img {
 }
 
 .portfolio .portfolio-content .info p {
-  color: #777;
+  color: var(--paragraph-color);
   line-height: 1.6;
 
 }
@@ -470,7 +471,7 @@ header .logo img {
 .about .about-content .caption p:last-of-type {
   font-size: 17px;
   line-height: 2;
-  color: #777;
+  color: var(--paragraph-color);
   line-height: 2;
 }
 
