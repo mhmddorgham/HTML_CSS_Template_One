@@ -27,11 +27,13 @@ body {
   margin: auto;
 }
 
+/* a framework to center all sections in the middle of the page */
 .container {
   margin: 0 auto;
   padding: 0 20px;
 }
 
+/* Will be used as a main framework for other sections */
 .special-heading {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -42,6 +44,7 @@ body {
   letter-spacing: 3px;
 }
 
+/* Will be used as a main framework for other sections */
 .special-heading+p {
   margin-top: -90px;
   font-size: 17px;
@@ -107,6 +110,7 @@ header .logo img {
   position: relative;
 }
 
+/* Menu Icon */
 .container nav .icon {
   width: 30px;
   display: flex;
@@ -137,6 +141,7 @@ header .logo img {
   width: 100%;
 }
 
+/* End Menu Icon */
 .container nav ul {
   list-style-type: none;
   margin: 0;
